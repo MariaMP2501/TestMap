@@ -1,0 +1,51 @@
+import React, { useState } from 'react';
+import { Box, Button, TextField, Typography } from '@mui/material';
+import { GoogleMaps } from 'google-maps';
+import MapCard from './MapCard';
+
+const MapAddresses: React.FC = () => {
+  const [origin, setOrigin] = useState('');
+  const [destination, setDestination] = useState('');
+
+  const handleFindRoute = () => {
+    // Ici, vous pouvez utiliser une API de routage comme Mapbox Directions API pour trouver un itinéraire entre les adresses d'origine et de destination.
+    // Pour cet exemple, nous allons simplement afficher les adresses dans la console.
+    console.log('Adresse d\'origine:', origin);
+    console.log('Adresse de destination:', destination);
+  };
+  const initAutocomplete = () => {
+  const originInput = document.getElementById('origin');
+  const destinationInput = document.getElementById('destination');
+
+  const autocompleteOrigin = new GoogleMaps.places.Autocomplete(originInput);
+  const autocompleteDestination = new GoogleMaps.places.Autocomplete(destinationInput);
+};
+
+  return (
+    <Box>
+      <Typography variant="h6">Trouver un itinéraire</Typography>
+      <Box>
+        <TextField
+          label="Adresse de départ"
+          variant="outlined"
+          fullWidth
+          margin="normal"
+          value={origin}
+          onChange={(e) => setOrigin(e.target.value)}
+        />
+        <TextField
+          label="Adresse de destination"
+          variant="outlined"
+          fullWidth
+          margin="normal"
+          value={destination}
+          onChange={(e) => setDestination(e.target.value)}
+        />
+        <Button variant="contained" onClick={handleFindRoute}>Trouver l'itinéraire</Button>
+      </Box>
+      <MapCard origin={origin} destination={destination} />
+    </Box>
+  );
+};
+
+export default MapAddresses;

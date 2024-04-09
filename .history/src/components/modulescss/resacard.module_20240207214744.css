@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+.resacard {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 1250px; /* Limite la largeur maximale */
+  height: 460px;
+}
+/* ligne date heure */
+.resacardItem {
+  position: absolute;
+  top: 315px;
+  left: 78px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  width: 650px;
+  height: 19px;
+}
+
+.dateHeure input{
+  border: none;
+  position: absolute;
+  top: 242px;
+  left: 83px;
+  font-weight: 600;
+  font-size: 28px;
+  display: inline-block;
+  width: 370px;
+  height: 48px;
+}
+
+/*btn estimation */
+.groupChild {
+  position: absolute;
+  top: 0px;
+  left: 1.72px;
+  border-radius: 10px;
+  background-color: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 596.28px;
+  height: 83.55px;
+}
+
+.estimation {
+  position: absolute;
+  top: 29px;
+  left: 212px;
+  font-size: 32px;
+  color: #fff;
+  line-height: 26px;
+  font-weight: 900;
+  font-family: Poppins;
+
+}
+/*estimation btn */
+.btncommander {
+  position: absolute;
+  top: 371px;
+  left: 950px;
+  width: 598px;
+  height: 84px;
+  cursor: pointer;
+}
+/* ligne btn  */
+.groupItem {
+  position: absolute;
+  top: 76px;
+  border-top: 8px solid #fdad00;
+  box-sizing: border-box;
+  width: 598px;
+  height: 8px;
+}
+
+
+
+.AddCircleIcon {
+  position: relative;
+  height: 10.87%;
+  width: 3.23%;
+  top: 29.13%;
+  right: 3.29%;
+  bottom: 60%;
+  left: 73.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.resacardInner {
+  position: absolute;
+  top: 153px;
+  left: 78px;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  width: 650px;
+  height: 19px;
+}
+
+.rectangleDiv {
+  position: absolute;
+  top: 153px;
+  left: 838px;
+  border-radius: 10px;
+  background-color: #737272;
+  width: 596px;
+  height: 19px;
+}
+
+.dpart input{
+  border: none;
+  position: absolute;
+  top: 59px;
+  left: 78px;
+  font-weight: 600;
+  font-size: 28px;
+  display: inline-block;
+  width: 370px;
+  height: 48px;
+}
+
+.nbPersonnes select {
+  border: none;
+  position: absolute;
+  top: 270px;
+  left: 974px;
+  font-size: 38px;
+  font-weight: 600;
+  color: rgba(196, 196, 196, 0.63);
+  display: flex;
+  width: 372px;
+  height: 49px;
+}
+
+.destination input {
+  border: none;
+  position: absolute;
+  top: 59px;
+  left: 838px;
+  font-size: 28px;
+  font-weight: 600;
+  display: inline-block;
+  width: 609px;
+  height: 48px;
+}
+
+.PersonIconContainer {
+  position: absolute;
+  top: 254px;
+  left: 838px;
+  width: 100px;
+  height: 690px;
+}
+
+
+/* Ajout de media queries pour les styles responsifs */
+@media screen and (max-width: 1200px) {
+  .resacardChild {
+    width: 95%; /* Ajustez la largeur pour les écrans plus petits */
+  }
+
+  .btncommander {
+    left: 5%; /* Ajustez la position pour les écrans plus petits */
+    width: 90%; /* Ajustez la largeur pour les écrans plus petits */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .resacard {
+    font-size: 20px; /* Ajustez la taille de la police pour les écrans plus petits */
+  }
+
+  .resacardChild {
+    flex-direction: column; /* Changez la direction de la disposition pour les écrans plus petits */
+    height: auto; /* Ajustez la hauteur automatique pour les écrans plus petits */
+  }
+
+  .btncommander {
+    left: 5%; /* Ajustez la position pour les écrans plus petits */
+    width: 90%; /* Ajustez la largeur pour les écrans plus petits */
+  }
+  .resacardItem,
+  .dateHeure1,
+  .btncommander,
+  .rectangleParent,
+  .estimation,
+  .resacardInner,
+  .rectangleDiv,
+  .dpart,
+  .div,
+  .destination,
+  .PersonIconContainer {
+    width: 50%; /* Réduisez la largeur à 50% pour les écrans plus petits */
+  }
+}
+
+
+/* Ajoutez d'autres media queries selon vos besoins */
+
+

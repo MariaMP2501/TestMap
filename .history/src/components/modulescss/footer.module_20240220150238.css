@@ -1,0 +1,90 @@
+*{
+
+}
+.footer1 {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 26px;
+    color: #e5e5e5;
+    font-family: 'Red Hat Display';
+}
+.footer2 {
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    background-color: #000;
+    width: 100%;
+    height: 471px;
+}
+.logo {
+    position: absolute;
+    width: 5%;
+    top: 14.56%;
+    right: 56.85%;
+    bottom: 38.94%;
+    left: 31.7%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+
+}
+.footertitle {
+    position: absolute;
+    top: 68px;
+    left: 47%;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: Anybody;
+    color: #f4bc31;
+}
+.tel {
+    position: absolute;
+    top: 133px;
+    left: 951px;
+    line-height: 18px;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.adress {
+    position: absolute;
+    top: 240px;
+    left: 953px;
+    line-height: 25px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.mail {
+    position: absolute;
+    top: 177px;
+    left: 951px;
+    line-height: 18px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.footerChild {
+    position: absolute;
+    top: 348px;
+    left: -0.54px;
+    border-top: 1px dashed #fff;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1px;
+}
+.footer3 {
+    position: absolute;
+    top: 390px;
+    left: calc(50% - 346.5px);
+    font-size: 22px;
+    line-height: 28px;
+    font-family: Anybody;
+    color: #fff;
+}
+

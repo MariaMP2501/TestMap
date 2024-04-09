@@ -1,0 +1,153 @@
+.section2 {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 139px 146px;
+    box-sizing: border-box;
+    gap: 78px;
+    text-align: left;
+    font-size: 38px;
+    color: #fdad00;
+    font-family: Anybody;
+}
+
+.section2title {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 56px;
+    display: inline-block;
+    height: 56px;
+    margin-left: 23px;
+}
+.chauffeurProfessionnel {
+    color: #fdad00;
+}
+.descriptionTxt {
+    line-break: anywhere;
+    width: 100%;
+}
+.description {
+    position: undefined;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+    line-height: 26px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 1460px;
+    height: 52px;
+    margin-right: 14px;
+    color: #fff;
+}
+.frame {
+    width: 1474px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+
+.title, .subtitle, .subtitle1 {
+    margin-top: 5%;
+    position: relative;
+    font-size: 32px;
+    line-height: 24px;
+    display: inline-block;
+    font-family: Anybody;
+    width: 256px;
+}
+.description1, .description2, .description3 {
+    position: relative;
+    line-height: 26px;
+    font-family: 'Red Hat Text';
+    display: inline-block;
+    width: 314px;
+    height: 71px;
+    flex-shrink: 0;
+}
+.etape1 {
+    width: 314px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 17px;
+}
+
+
+.tape2 {
+    width: 268px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 17px;
+}
+.frame3 {
+    width: 720px;
+    height: 367px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 138px;
+}
+
+.tape3 {
+    width: 256px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 17px;
+}
+.frame4 {
+    width: 697px;
+    height: 367px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 185px;
+}
+.frame2 {
+    width: 1590px;
+    height: 367px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 173px;
+}
+.frame1 {
+    width: 1632px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    font-family: Poppins;
+}
+

@@ -1,0 +1,43 @@
+/* title.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&display=swap');
+
+/* section1.module.css */
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px; /* Ajustez la marge supérieure selon vos besoins */
+}
+
+.titleContainer {
+  align-self: flex-end;
+  margin-right: 50px; /* Ajustez la marge droite pour positionner le titre à droite */
+}
+
+.title {
+  font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
+  font-weight: bold;
+  color: #333; /* Ajustez la couleur selon vos besoins */
+}
+
+.resacardContainer {
+  margin-top: 50px; /* Ajustez la marge supérieure selon vos besoins */
+}
+
+
+@media screen and (max-width: 768px) {
+  .title {
+    height: auto;
+  }
+
+  .title,
+ {
+    font-size: 0.9rem;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+}

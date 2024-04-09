@@ -1,0 +1,31 @@
+{
+    "homepage_title": "Freedom to move, just a click away",
+    "homepage_subtitle": "Book now!",
+    "card": {
+      "departure": "Departure",
+      "destination": "Destination",
+      "dateTime": "Date / Time",
+      "passengers": "Passengers"
+    },
+    "homepage_section2":{
+      "s2_title":"Join us",
+      "s2_subtitle":"Whether you are a professional driver or a passenger join our network and benefit from exclusive offers with our partners. Let’s make each journey a unique adventure",
+      "Step":"step",
+      "register":"register",
+      "confirm":"confirm",
+      "drive":"drive",
+      "earn":"win",
+      "register_text":" start with your quick registration",
+      "confirma_text":"check and confirm with one click",
+      "drive_text":"get started without worries",
+      "earn_text":"reach your goals with us"
+    },
+    "homepage_section3":{
+        "s3_title":"We have the largest network",
+        "s3_text":"We are creating the ultimate transfer network. Imagine a network that extends to the four corners of France, where each step becomes an opportunity for discovery. Experience the comfort of check-in, the certainty of confirmation, the pleasure of riding and the triumph of winning. All of this converges towards creating an unprecedented experience. Join us as we write the next chapter of mobility - your mobility. Your adventure begins soon."
+      },
+      "footer":{
+        "Company":"Company"
+    }
+}
+  

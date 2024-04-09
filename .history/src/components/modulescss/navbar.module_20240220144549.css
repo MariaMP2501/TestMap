@@ -1,0 +1,129 @@
+/* navbar.module.css */
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  top: 0;
+  margin: 0;
+  position: fixed;
+  overflow: hidden;
+}
+
+.bgcurves {
+  width: 100%;
+  height: auto;
+  max-width: 100vw;
+  display: block;
+}
+
+.contentWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-top: -1.1%;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.logo {
+  width: 7%;
+}
+
+.title {
+  display: flex;
+  gap: 1.5%;
+  color: #fff;
+  font-size: 1.7vw;
+  font-family: 'Anybody';
+  margin-right: 5px;
+}
+.title2 {
+  color: #fdad00;
+}
+
+
+.buttonsContainer {
+  display: flex;
+  margin-top: -2%;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.btnCall,
+.btnMail,
+.btnLangue {
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.btnLangue {
+  font-size: 1vw;
+  font-weight: 900;
+  font-family: 'Anybody';
+  padding: 0 5px;
+}
+
+.btnCall:hover,
+.btnMail:hover,
+.btnLangue:hover {
+  background-color: #fdad00;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    display: none; /* Cacher le titre sur les écrans plus petits */
+  }
+
+  .logo {
+    width: 8%; /* Ajustez la taille du logo pour les écrans plus petits */
+  }
+
+  .btnCall,
+  .btnMail,
+  .btnLangue {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .btnLangue {
+    padding: 0 5px !important; /* Ajustez la marge du bouton de langue pour les écrans plus petits */
+    font-size: 12px !important; /* Ajustez la taille du texte du bouton de langue pour les écrans plus petits */
+  }
+ .bgcurves{
+  display: 50%;
+ }
+  .tc {
+    display: flex;
+    font-size: 12px;
+  }
+ 
+  .title2 {
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+import React, { FunctionComponent } from 'react';
+import { StepProgressBar } from './StepProgressBar';
+import { ReservationForm } from './ReservationForm';
+import MapCard from './MapCard';
+import MapAddresses from './MapAddresses';
+
+const Estimation: FunctionComponent = () => {
+    const sectionStyle = {
+		width:'90%',
+        margin: '8rem',
+		fontFamily: 'Anybody',
+    };
+    const sectionCardStyle = {
+        margin: '8rem',
+        display: 'flex',
+		fontFamily: 'Anybody',
+    };
+
+    const map_Card_Style = {
+        width: '100%',
+        zIndex: '3',
+    };
+	const map_Addresses_Style = {
+        flex: '1',
+        width: '10%',
+        zIndex: '3',
+    };
+
+    return (
+        <div className='section1' style={sectionStyle}>
+            <StepProgressBar/>
+            <div className='section1' style={sectionCardStyle}>
+                <div style={map_Card_Style}>
+                    <MapCard /> {/* Afficher la carte existante */}
+                </div>
+                <div style={map_Addresses_Style}>
+                    <MapAddresses /> {/* Ajouter la carte pour ajouter des adresses et trouver un itinéraire */}
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Estimation;

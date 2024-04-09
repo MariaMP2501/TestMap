@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+.resacard {
+  position: relative;
+  background-image:url(../../assets/card_Resa.svg)
+}
+/* ligne date heure */
+
+@media screen and (max-width: 1200px) {
+  .resacardChild {
+    width: 95%; /* Ajustez la largeur pour les écrans plus petits */
+  }
+
+  .btncommander {
+    left: 5%; /* Ajustez la position pour les écrans plus petits */
+    width: 90%; /* Ajustez la largeur pour les écrans plus petits */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .resacard {
+    font-size: 20px; /* Ajustez la taille de la police pour les écrans plus petits */
+  }
+
+  .resacardChild {
+    flex-direction: column; /* Changez la direction de la disposition pour les écrans plus petits */
+    height: auto; /* Ajustez la hauteur automatique pour les écrans plus petits */
+  }
+
+  .btncommander {
+    left: 5%; /* Ajustez la position pour les écrans plus petits */
+    width: 90%; /* Ajustez la largeur pour les écrans plus petits */
+  }
+  .resacardItem,
+  .dateHeure1,
+  .btncommander,
+  .rectangleParent,
+  .estimation,
+  .resacardInner,
+  .rectangleDiv,
+  .dpart,
+  .div,
+  .destination,
+  .PersonIconContainer {
+    width: 50%; /* Réduisez la largeur à 50% pour les écrans plus petits */
+  }
+}
+
+
+/* Ajoutez d'autres media queries selon vos besoins */
+
+

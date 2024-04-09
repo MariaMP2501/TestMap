@@ -1,0 +1,587 @@
+.estimation {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 69.81rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.75rem;
+    color: #000;
+    font-family: Inter;
+}
+
+
+.cardgaucheIcon {
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    border-radius: 10px;
+    width: 45.06rem;
+    height: 48.81rem;
+}
+.cardCommander {
+    position: absolute;
+    height: 18.53%;
+    width: 38.25%;
+    top: 5.19%;
+    right: 56.31%;
+    bottom: 76.28%;
+    left: 5.44%;
+    color: #e5e5e5;
+}
+
+.btnRefresh {
+    position: absolute;
+    height: 17.87%;
+    width: 24.36%;
+    top: 65.22%;
+    right: 4.39%;
+    bottom: 16.91%;
+    left: 71.26%;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+
+.cardgris {
+    position: absolute;
+    top: 26.44rem;
+    left: 3.25rem;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    width: 8.19rem;
+    height: 6.63rem;
+}
+
+.comfortCar {
+    position: absolute;
+    top: 26.44rem;
+    left: 3.25rem;
+    width: 8rem;
+    height: 7rem;
+    object-fit: contain;
+}
+
+.comfort {
+    position: absolute;
+    top: 27.13rem;
+    left: 12.88rem;
+    font-weight: 600;
+}
+
+.div {
+    position: absolute;
+    top: 27rem;
+    left: 37.5rem;
+    font-weight: 600;
+}
+
+.div1 {
+    position: absolute;
+    top: 27.19rem;
+    left: 21.88rem;
+    font-size: 1.69rem;
+    font-weight: 600;
+    color: #737272;
+    display: inline-block;
+    width: 1.06rem;
+    height: 1.94rem;
+}
+
+.userSolid1Icon1 {
+    position: absolute;
+    top: 27.69rem;
+    left: 20.38rem;
+    width: 1rem;
+    height: 1.06rem;
+    overflow: hidden;
+}
+
+.van {
+    position: absolute;
+    top: 35.5rem;
+    left: 12.88rem;
+    font-weight: 600;
+}
+
+.div2 {
+    position: absolute;
+    top: 35.56rem;
+    left: 18.13rem;
+    font-size: 1.69rem;
+    font-weight: 600;
+    color: #737272;
+}
+
+.userSolid3Icon1 {
+    position: absolute;
+    top: 36.06rem;
+    left: 16.75rem;
+    width: 1.06rem;
+    height: 1.06rem;
+    overflow: hidden;
+}
+
+.div3 {
+    position: absolute;
+    top: 35.56rem;
+    left: 37.5rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 3.5rem;
+    height: 2.13rem;
+}
+
+.cardgaucheItem {
+    position: absolute;
+    top: 35.38rem;
+    left: 3rem;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    width: 8.19rem;
+    height: 6.56rem;
+}
+
+.vanCar {
+    position: absolute;
+    top: 35.38rem;
+    left: 3.25rem;
+    width: 8.4rem;
+    height: 7rem;
+    object-fit: contain;
+}
+
+.cardSelected {
+    position: absolute;
+    top: 17.19rem;
+    left: 2.81rem;
+    border-radius: 15px;
+    background-color: #e5e5e5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 41.31rem;
+    height: 7.38rem;
+}
+
+.cardgaucheChild1 {
+    position: absolute;
+    top: 17.5rem;
+    left: 3.25rem;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    width: 8.19rem;
+    height: 6.69rem;
+}
+
+.cardgaucheChildvip {
+    position: absolute;
+    top: 8.5rem;
+    left: 3.25rem;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    width: 8.19rem;
+    height: 6.69rem;
+}
+
+.taxiCar {
+    position: absolute;
+    top: 18.44rem;
+    left: 3.44rem;
+    width: 7.94rem;
+    height: 4.88rem;
+    object-fit: contain;
+}
+
+.taxi {
+    position: absolute;
+    top: 18.5rem;
+    left: 12.88rem;
+    font-weight: 600;
+}
+
+.div4 {
+    position: absolute;
+    top: 18.63rem;
+    left: 37.5rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 4.94rem;
+    height: 2rem;
+}
+
+.dposePrvue13351 {
+    position: absolute;
+    top: 21.56rem;
+    left: 15.31rem;
+    font-size: 1.69rem;
+    font-weight: 600;
+    color: #737272;
+    display: inline-block;
+    width: 22.38rem;
+    height: 2rem;
+}
+
+.dposePrvue13382 {
+    position: absolute;
+    top: 30.25rem;
+    left: 15.19rem;
+    font-size: 1.69rem;
+    font-weight: 600;
+    color: #737272;
+    display: inline-block;
+    width: 22.31rem;
+    height: 2.06rem;
+}
+
+.vipCar {
+    position: absolute;
+    top: 9rem;
+    left: 6%;
+    border-radius: 10px;
+    width: 9rem;
+    height: 7rem;
+    object-fit: contain;
+}
+
+.vip {
+    position: relative;
+    top: 9rem;
+    left: 14rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 3.13rem;
+    height: 2.13rem;
+}
+
+.div5 {
+    position: absolute;
+    top: 8.88rem;
+    left: 37.06rem;
+    font-weight: 600;
+}
+
+.div6 {
+    position: absolute;
+    top: 9.06rem;
+    left: 17.69rem;
+    font-size: 1.69rem;
+    font-weight: 600;
+    color: #737272;
+    display: inline-block;
+    width: 2.13rem;
+    height: 1.94rem;
+}
+
+.userSolid6Icon1 {
+    position: absolute;
+    top: 9.5rem;
+    left: 16.31rem;
+    width: 1rem;
+    height: 1.06rem;
+    overflow: hidden;
+}
+
+
+.dposePrvue13383 {
+    position: absolute;
+    top: 12.13rem;
+    left: 14.69rem;
+    font-size: 1.69rem;
+    font-weight: 600;
+    color: #737272;
+    display: inline-block;
+    width: 22.38rem;
+    height: 2.06rem;
+}
+
+.dposePrvue13391 {
+    position: absolute;
+    top: 38.63rem;
+    left: 15.19rem;
+    font-size: 1.69rem;
+    font-weight: 600;
+    color: #737272;
+    display: inline-block;
+    width: 23.19rem;
+    height: 1.94rem;
+}
+
+.div7 {
+    position: absolute;
+    top: 18.56rem;
+    left: 18.25rem;
+    font-size: 1.69rem;
+    font-weight: 600;
+    color: #737272;
+    display: inline-block;
+    width: 1.13rem;
+    height: 1.94rem;
+}
+
+.userSolid5Icon1 {
+    position: absolute;
+    top: 19rem;
+    left: 16.63rem;
+    width: 1.06rem;
+    height: 1.06rem;
+    overflow: hidden;
+}
+
+.groupChild {
+    position: absolute;
+    top: 0rem;
+    left: 0.13rem;
+    border-radius: 10px;
+    background-color: #000;
+    box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.25);
+    width: 45.68rem;
+    height: 4.94rem;
+}
+
+.groupItem {
+    position: absolute;
+    top: 4.72rem;
+    left: -0.25rem;
+    border-top: 8px solid #fdad00;
+    box-sizing: border-box;
+    width: 46.18rem;
+    height: 0.5rem;
+}
+
+.rectangleParent {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 45.81rem;
+    height: 4.97rem;
+}
+
+.c {
+    text-transform: capitalize;
+}
+
+.ommander {
+    text-transform: lowercase;
+}
+
+.commander1 {
+    position: absolute;
+    top: 1.45rem;
+    left: 16.87rem;
+    line-height: 1.63rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 12.06rem;
+    height: 2.52rem;
+}
+
+.commander {
+    position: absolute;
+    top: 43.34rem;
+    left: 0rem;
+    width: 45.81rem;
+    height: 4.97rem;
+    color: #fff;
+    font-family: Poppins;
+}
+
+.cardgauche1 {
+    position: absolute;
+    height: 73%;
+    width: 50%;
+    top: 14.7%;
+    right: 0%;
+    bottom: 0%;
+    left: 3rem;
+    /* top: 12.25rem;
+    left: 1.5rem; */
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.carddroiteIconContainer {
+    position: relative;
+  }
+  
+.carddroiteIcon {
+    position: absolute;
+    top: 4.81rem;
+    right: 3rem;
+    border-radius: 10px;
+    width: 50.44rem;
+    height: 56.25rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mapContainer {
+    position: absolute;
+    top: 7.69rem;
+    width: 34rem;
+    height: 51.38rem;
+    right: 5%;
+    object-fit: contain;
+}
+
+
+.cardCommanderChild {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardCommanderItem {
+    position: absolute;
+    height: 2.42%;
+    width: 42.06%;
+    top: 34.3%;
+    right: 52.65%;
+    bottom: 63.29%;
+    left: 5.3%;
+    border-radius: 10px;
+    background-color: #e5e5e5;
+}
+
+.cardCommanderInner {
+    position: absolute;
+    height: 3.38%;
+    width: 42.06%;
+    top: 81.16%;
+    right: 52.65%;
+    bottom: 15.46%;
+    left: 5.3%;
+    border-radius: 10px;
+    background-color: #e5e5e5;
+}
+
+.cardCommanderChild1 {
+    position: absolute;
+    height: 3.38%;
+    width: 13.16%;
+    top: 81.16%;
+    right: 32.68%;
+    bottom: 15.46%;
+    left: 54.16%;
+    border-radius: 10px;
+    background-color: #e5e5e5;
+}
+
+.cardCommanderChild2 {
+    position: absolute;
+    height: 2.42%;
+    width: 36.31%;
+    top: 34.3%;
+    right: 9.53%;
+    bottom: 63.29%;
+    left: 54.16%;
+    border-radius: 10px;
+    background-color: #737272;
+}
+
+.palaisGarnier {
+    position: absolute;
+    top: 11.59%;
+    left: 5.3%;
+    font-weight: 600;
+}
+
+.div8 {
+    position: absolute;
+    top: 63.29%;
+    left: 55%;
+    font-weight: 600;
+    color: #737272;
+}
+
+.div8 .PersonIcon {
+    font-size: 12%;
+}
+
+.div9 {
+    position: absolute;
+    height: 11.59%;
+    width: 24.9%;
+    top: 63.29%;
+    left: 5%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #c4c4c4;
+    display: inline-block;
+}
+
+.palaisRoyal {
+    position: absolute;
+    height: 11.59%;
+    width: 39.49%;
+    top: 11.59%;
+    left: 54.16%;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.userSolid4Icon1 {
+    position: absolute;
+    height: 13.53%;
+    width: 3.49%;
+    top: 63.77%;
+    right: 41.9%;
+    bottom: 22.71%;
+    left: 54.61%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.calendarRegular1Icon1 {
+    position: absolute;
+    height: 9.66%;
+    width: 2.72%;
+    top: 65.22%;
+    right: 91.23%;
+    bottom: 25.12%;
+    left: 6.05%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.btnRefreshChild {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 15px;
+    background-color: #737272;
+}
+
+.actualiser {
+    position: absolute;
+    top: 16.22%;
+    left: 10.56%;
+    font-weight: 600;
+}
+
+.arrowsRotateSolid1Icon1 {
+    position: absolute;
+    height: 55.23%;
+    width: 12.42%;
+    top: 21.62%;
+    right: 8.7%;
+    bottom: 23.15%;
+    left: 78.88%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+

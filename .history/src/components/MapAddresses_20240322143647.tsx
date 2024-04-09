@@ -1,0 +1,128 @@
+import React, { useState } from 'react';
+import { Box, Button, TextField, Typography } from '@mui/material';
+import DirectionsService from '@mapbox/mapbox-sdk/services/directions';
+
+// Fonction pour récupérer les adresses depuis l'API Adresse Data Gouv
+const fetchAddresses = async (query) => {
+  try {
+    const response = await fetch(`https://api-adresse.data.gouv.fr/search/?q=${query}&limit=5`);
+    if (!response.ok) {
+      throw new Error('Erreur lors de la récupération des adresses');
+    }
+    const data = await response.json();
+    return data.features.map((feature) => feature.properties.label);
+  } catch (error) {
+    console.error('Erreur:', error.message);
+    return []; // Retourner un tableau vide en cas d'erreur
+  }
+};
+
+const MapAddresses: React.FC = () => {
+  const [origin, setOrigin] = useState('');
+  const [destination, setDestination] = useState('');
+  const [suggestedOriginAddresses, setSuggestedOriginAddresses] = useState<string[]>([]);
+  const [suggestedDestinationAddresses, setSuggestedDestinationAddresses] = useState<string[]>([]);
+  const [distance, setDistance] = useState<number | null>(null); // Initialisation de distance à null
+  const directionsService = DirectionsService({ accessToken: 'pk.eyJ1IjoibW1lbmRlenBhZXoiLCJhIjoiY2x0enVscms1MDQ0aDJrazF4dzU5N2ltaSJ9.QJh_5No8kXfyKWbMmSrLfw' });
+ 
+  const handleOriginInputChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const query = e.target.value;
+    setOrigin(query);
+    if (query.trim() !== '') {
+      const addresses = await fetchAddresses(query);
+      setSuggestedOriginAddresses(addresses);
+    } else {
+      setSuggestedOriginAddresses([]);
+    }
+  };
+
+  const handleDestinationInputChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const query = e.target.value;
+    setDestination(query);
+    if (query.trim() !== '') {
+      const addresses = await fetchAddresses(query);
+      setSuggestedDestinationAddresses(addresses);
+    } else {
+      setSuggestedDestinationAddresses([]);
+    }
+  };
+
+  const handleFindRoute = async () => {
+    try {
+      // Géocoder les adresses d'origine et de destination pour obtenir les coordonnées
+      const originCoordinates = await geocodeAddress(origin);
+      const destinationCoordinates = await geocodeAddress(destination);
+
+      // Calculer la distance entre les deux points
+      const calculatedDistance = calculateDistance(originCoordinates, destinationCoordinates);
+      setDistance(calculatedDistance);
+    } catch (error) {
+      console.error('Erreur lors de la récupération de l\'itinéraire:', error);
+    }
+  };
+
+  const geocodeAddress = async (address: string): Promise<[number, number]> => {
+    // Code pour géocoder l'adresse et retourner les coordonnées
+  };
+
+  const calculateDistance = ([lat1, lon1]: [number, number], [lat2, lon2]: [number, number]): number => {
+    // Code pour calculer la distance entre deux points en utilisant la formule Haversine
+  };
+
+  return (
+    <Box>
+      <Typography variant="h6">Trouver un itinéraire</Typography>
+      <Box>
+        <TextField
+          label="Adresse de départ"
+          variant="outlined"
+          fullWidth
+          margin="normal"
+          value={origin}
+          onChange={handleOriginInputChange}
+        />
+        {suggestedOriginAddresses.map((address, index) => (
+          <Typography
+            key={index}
+            variant="body2"
+            onClick={() => handleOriginAddressClick(address)}
+            style={{ color: 'grey', cursor: 'pointer' }}
+          >
+            {address}
+          </Typography>
+        ))}
+        <TextField
+          label="Adresse de destination"
+          variant="outlined"
+          fullWidth
+          margin="normal"
+          value={destination}
+          onChange={handleDestinationInputChange}
+        />
+        {suggestedDestinationAddresses.map((address, index) => (
+          <Typography
+            key={index}
+            variant="body2"
+            onClick={() => handleDestinationAddressClick(address)}
+            style={{ color: 'grey', cursor: 'pointer' }}
+          >
+            {address}
+          </Typography>
+        ))}
+        <TextField // Champ texte pour afficher la distance
+          label="Distance (m)"
+          variant="outlined"
+          fullWidth
+          margin="normal"
+          value={distance !== null ? distance.toString() : ''}
+          InputProps={{
+            readOnly: true, // Rendre le champ en lecture seule
+          }}
+        />
+        <Button variant="contained" onClick={handleFindRoute}>Trouver l'itinéraire</Button>
+      </Box>
+    </Box>
+  );
+};
+
+export default MapAddresses;

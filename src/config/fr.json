@@ -1,0 +1,50 @@
+{
+    "homepage_title": "La liberté de se déplacer, à portée de clics",
+    "homepage_subtitle": "Réservez dès maintenant!",
+    "resa_card": {
+        "departure": "Départ",
+        "destination": "Destination",
+        "dateTime": "Date / Heure",
+        "passengers": "Passagers",
+        "btnEstimation": "Estimation"
+      },
+      "homepage_section2":{
+        "s2_title":"Nous rejoindre",
+        "s2_subtitle":"Que vous soyez un chauffeur professionnel ou un passager  rejoignez notre réseau et bénéficiez d'offres exclusives avec nos partenaires. Faisons de chaque trajet une aventure unique",
+        "Step":"Etape",
+        "register":"S'enregistrer",
+        "confirm":"confirmer",
+        "drive":"rouler",
+        "earn":"gagner",
+        "register_text":" Démarrez avec votre inscription rapide",
+        "confirm_text":"Vérifiez et confirmez en un clic",
+        "drive_text":"Mettez-vous en route sans soucis",
+        "earn_text":"Atteignez vos objectifs avec nous"
+      },
+      "homepage_section3":{
+        "s3_title":"Nous avons le plus grand réseau",
+        "s3_text":"Nous sommes en train de créer le réseau ultime de transferts.Imaginez un réseau qui s'étend aux quatre coins de la France, où chaque étape devient une opportunité de découverte. Découvrez le confort de l'enregistrement, la certitude de la confirmation, le plaisir de rouler et le triomphe de gagner. Tout cela converge vers la création d'une expérience sans précédent. Joignez-vous à nous alors que nous écrivons le prochain chapitre de la mobilité - votre mobilité. Votre aventure commence bientôt."
+      },
+      "footer":{
+        "company":"entreprise"
+      },
+      "menu":{
+        "home":"home",
+        "pay":"paiements",
+        "planning":"calendrier",
+        "trips":"courses",
+        "messages":"messages",
+        "notice":"Mentions légales",
+        "web_site":"site internet",
+        "btn_logout":"deconnexion",
+        "btn_login":"connexion"
+      },
+      "commande_card":{
+      "commende_card":"commander",
+      "arrival_time":"dépose prévue",
+    },
+    "menu_steps":{
+        "reservation":"resa",
+    }
+  }
+  

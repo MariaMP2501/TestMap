@@ -1,0 +1,55 @@
+.section3 {
+    position: relative;
+    width: 100%;
+    height: 671px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 26px;
+    color: #fff;
+    font-family: Poppins;
+}
+.section3title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    letter-spacing: -0.02em;
+    line-height: 56px;
+    font-family: 'Red Hat Text';
+    align-items: center;
+    color: #204945;
+}
+.description {
+    position: absolute;
+    top: 307px;
+    left: calc(50% - 760.5px);
+    line-height: 28px;
+    font-family: 'Red Hat Text';
+    color: #777e90;
+    text-align: justify;
+    display: inline-block;
+    width: 1518px;
+    height: 158px;
+}
+
+.btncontact {
+    position: absolute;
+    top: 483px;
+    left: calc(50% - 201.5px);
+    border-radius: 10px;
+    background-color: #fdad00;
+    box-shadow: 0px 4px 0px rgba(196, 196, 196, 0.25);
+    width: 30%;
+    height: 10%;
+}
+.btn {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% - 106px);
+    line-height: 26px;
+    display: inline-block;
+    width: auto;
+}
+
+

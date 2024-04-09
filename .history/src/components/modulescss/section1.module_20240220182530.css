@@ -1,0 +1,34 @@
+/* title.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&display=swap');
+
+*{
+  top: 0;
+}
+.title {
+display: flex;
+  color: #fff;
+  text-align: rightx;
+  font-family: 'Anybody';
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    height: auto;
+  }
+
+  .title,
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .ligne {
+    width: 35%;
+  }
+
+}

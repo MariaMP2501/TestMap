@@ -1,0 +1,47 @@
+/* title.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&display=swap');
+
+
+.title {
+  position: relative;
+  text-align: left;
+  color: #000000;
+  font-family: 'Anybody', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.subtitle {
+  margin-top: 1.5%;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #5a5f6a;
+}
+
+.ligne {
+  border-top: 8px solid #fdad00;
+  border-radius: 20px;
+  width: 14vw;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    height: auto;
+  }
+
+  .title,
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .ligne {
+    width: 35%;
+  }
+
+}
